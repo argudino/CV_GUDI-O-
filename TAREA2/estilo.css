@@ -1,0 +1,66 @@
+.nombre-y-foto,
+.Estudios-realizados,
+.Experiencia-laboral,
+.capacitacion,
+.referencias{
+    padding: 60px
+}
+.nombre-y-foto,
+.Estudios-realizados,
+.Experiencia-laboral,
+.capacitacion,
+.referencias{
+    font-family: Tim;
+    font-size: 100%;
+}
+
+body{
+    margin: 50px;
+}
+.nombre-y-foto{
+    color: black;
+    background-color: #0b99ac;
+
+}
+
+.Estudios-realizados{
+    background-color: #419d6c;
+}
+
+.Experiencia-laboral{
+    background-color: #0e5753;
+}
+.capacitacion{
+    background-color: #45d49b;
+}
+.referencias{
+    background-color: #36c4cb;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0%;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 0%;
+    margin: 150px;
+}
+.nombre-y-foto{
+    grid-row: span 3;
+}
+
+.Estudios-realizados{
+    grid-column: span 2;
+}
+
+.Experiencia-laboral{
+    grid-column: span 2;
+}
+
+.capacitacion{
+    grid-column: span 2;
+}
+
+.referencias{
+    grid-column: span 3;
+}
+  
